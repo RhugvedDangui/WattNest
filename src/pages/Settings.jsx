@@ -63,7 +63,14 @@ const Settings = () => {
 
   return (
     <div className="min-h-screen bg-amber-50 dark:bg-gray-900">
-      <FloatingNav />
+      <FloatingNav navItems={[
+        { name: 'Home', path: '/' },
+        { name: 'Dashboard', path: '/dashboard' },
+        { name: 'Reports', path: '/reports' },
+        { name: 'Tips', path: '/tips' },
+        { name: 'Predictions', path: '/predictions' },
+        { name: 'Settings', path: '/settings' },
+      ]} />
 
       <div className="pt-24 pb-8 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
      

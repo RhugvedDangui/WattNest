@@ -442,6 +442,7 @@ const Reports = () => {
         { name: 'Home', path: '/' },
         { name: 'Dashboard', path: '/dashboard' },
         { name: 'Reports', path: '/reports' },
+        { name: 'Tips', path: '/tips' },
         { name: 'Predictions', path: '/predictions' },
         { name: 'Bookings', path: '/bookings' },
       ]} />

@@ -5,6 +5,7 @@ import SignUpPage from './pages/auth/SignUp';
 import Home from './pages/Home';
 import Dashboard from './pages/Dashboard';
 import Reports from './pages/Reports';
+import Tips from './pages/Tips';
 import Settings from './pages/Settings';
 import Footer from './components/Footer';
 import { ThemeProvider } from './context/ThemeContext';
@@ -97,6 +98,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/reports" element={<Reports />} />
+          <Route path="/tips" element={<Tips />} />
           <Route path="/settings" element={<Settings />} />
         </Route>
 
